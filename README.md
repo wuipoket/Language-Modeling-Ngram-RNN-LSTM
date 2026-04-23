@@ -21,8 +21,10 @@ This project implements and compares multiple language modeling approaches for n
 - Performed sentence completion on incomplete sequences
 
 ## Results
-- Neural models outperform N-gram in long-range dependencies
-- LSTM achieves better performance than vanilla RNN
+- N-gram Accuracy: 25.90% (Trigram)
+- RNN Accuracy: 31.31%
+- LSTM Accuracy: 32.38%
+- LSTM achieves the lowest perplexity (49.01), indicating better sequence modeling capability
 
 ## Tech Stack
 - Python
@@ -31,3 +33,5 @@ This project implements and compares multiple language modeling approaches for n
 
 ## Key Takeaways
 - Demonstrates progression from statistical to neural language models
+- Highlights limitations of N-gram in long-context modeling
+- Shows effectiveness of LSTM in capturing sequential dependencies
